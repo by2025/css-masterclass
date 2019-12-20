@@ -8,8 +8,14 @@
     <style>
         .father {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: center;
+            /* <-- main axis */
+            align-items: flex-end;
+            /* <-- cross axis */
+            height: 100vh;;
         }
+        
         .box {
             width: 300px;
             height: 300px;
